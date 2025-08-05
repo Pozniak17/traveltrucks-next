@@ -42,6 +42,35 @@
   background: linear-gradient(180deg, #080c09 0%, #000 100%);
 }
 
+.styled_link {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+
+  text-decoration: none;
+  display: flex;
+  /* width: 173px; */
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  cursor: pointer;
+  transition-property: background-color, border;
+  transition-duration: 300ms;
+
+  color: #fff;
+  background-color: #e44848;
+  border: inherit;
+}
+
+.styled_link:hover,
+.styled_link:focus {
+  background-color: #d84343;
+  border: inherit;
+}
+
 @media (min-resolution: 192dpi) {
   .hero {
     background-image: url("/images/Home/Mobile/mobile-2x.jpg");
