@@ -109,6 +109,11 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .button_wrapper {
+    text-align: start;
+    width: 173px;
+  }
 }
 
 @media (min-width: 744px) and (min-resolution: 192dpi) {
