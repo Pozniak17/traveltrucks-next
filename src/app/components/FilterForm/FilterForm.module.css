@@ -1,0 +1,19 @@
+.form {
+  width: 328px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 744px) {
+  .form {
+    width: 696px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .form {
+    width: 360px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
